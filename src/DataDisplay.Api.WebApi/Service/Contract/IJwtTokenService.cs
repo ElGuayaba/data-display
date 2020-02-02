@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using CognitiveServicesTemplate.Api.WebApi.Service.Implementation;
+using DataDisplay.Api.WebApi.Service.Implementation;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Service.Contract
+namespace DataDisplay.Api.WebApi.Service.Contract
 {
     public interface IJwtTokenService
     {

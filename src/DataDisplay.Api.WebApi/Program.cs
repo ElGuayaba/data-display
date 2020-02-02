@@ -2,10 +2,10 @@ using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using CognitiveServicesTemplate.Api.WebApi.Configuration;
+using DataDisplay.Api.WebApi.Configuration;
 using Serilog;
 
-namespace CognitiveServicesTemplate.Api.WebApi
+namespace DataDisplay.Api.WebApi
 {
     public class Program
     {

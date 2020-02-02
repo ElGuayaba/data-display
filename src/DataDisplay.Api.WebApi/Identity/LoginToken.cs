@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Identity;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Identity
+namespace DataDisplay.Api.WebApi.Identity
 {
     public class LoginToken
     {

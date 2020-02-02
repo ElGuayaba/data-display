@@ -3,11 +3,11 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using CognitiveServicesTemplate.Api.WebApi.Identity;
-using CognitiveServicesTemplate.Api.WebApi.Service.Contract;
+using DataDisplay.Api.WebApi.Identity;
+using DataDisplay.Api.WebApi.Service.Contract;
 using Newtonsoft.Json;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Service.Implementation
+namespace DataDisplay.Api.WebApi.Service.Implementation
 {
     public class TokenLoginService : ITokenLoginService
     {

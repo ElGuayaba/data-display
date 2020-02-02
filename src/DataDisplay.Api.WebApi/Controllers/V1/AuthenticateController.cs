@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using CognitiveServicesTemplate.Api.WebApi.Extension;
-using CognitiveServicesTemplate.Api.WebApi.Service.Contract;
-using CognitiveServicesTemplate.Application.Contract.Service;
+using DataDisplay.Api.WebApi.Extension;
+using DataDisplay.Api.WebApi.Service.Contract;
+using DataDisplay.Application.Contract.Service;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Controllers.V1
+namespace DataDisplay.Api.WebApi.Controllers.V1
 {
     [ApiController]
     [ApiVersion("1")]

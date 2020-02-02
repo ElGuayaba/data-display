@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Identity
+namespace DataDisplay.Api.WebApi.Identity
 {
     public class ApplicationDbContext : IdentityDbContext
     {

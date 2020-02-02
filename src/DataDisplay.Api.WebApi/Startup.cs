@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using CognitiveServicesTemplate.Api.WebApi.Configuration;
+using DataDisplay.Api.WebApi.Configuration;
 
-namespace CognitiveServicesTemplate.Api.WebApi
+namespace DataDisplay.Api.WebApi
 {
     public class Startup
     {

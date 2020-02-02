@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CognitiveServicesTemplate.Common\DataDisplay.Common.csproj" />
+      <ProjectReference Include="..\DataDisplay.Common\DataDisplay.Common.csproj" />
     </ItemGroup>
 
 </Project>

@@ -3,9 +3,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using CognitiveServicesTemplate.Api.WebApi.Identity;
+using DataDisplay.Api.WebApi.Identity;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Identity.Migrations
+namespace DataDisplay.Api.WebApi.Identity.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -212,7 +212,7 @@ namespace CognitiveServicesTemplate.Api.WebApi.Identity.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("CognitiveServicesTemplate.Api.WebApi.Identity.LoginToken", b =>
+            modelBuilder.Entity("DataDisplay.Api.WebApi.Identity.LoginToken", b =>
                 {
                     b.Property<Guid>("Id")
                         .HasColumnType("TEXT");
@@ -278,7 +278,7 @@ namespace CognitiveServicesTemplate.Api.WebApi.Identity.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("CognitiveServicesTemplate.Api.WebApi.Identity.LoginToken", b =>
+            modelBuilder.Entity("DataDisplay.Api.WebApi.Identity.LoginToken", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "IdentityUser")
                         .WithMany()

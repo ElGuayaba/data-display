@@ -1,6 +1,6 @@
-using CognitiveServicesTemplate.Api.WebApi.Identity;
-using CognitiveServicesTemplate.Api.WebApi.Service.Contract;
-using CognitiveServicesTemplate.Api.WebApi.Service.Implementation;
+using DataDisplay.Api.WebApi.Identity;
+using DataDisplay.Api.WebApi.Service.Contract;
+using DataDisplay.Api.WebApi.Service.Implementation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Configuration
+namespace DataDisplay.Api.WebApi.Configuration
 {
 	public static partial class DependencyInjectionExtension
     {

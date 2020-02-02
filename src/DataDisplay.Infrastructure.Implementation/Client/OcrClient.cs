@@ -1,6 +1,6 @@
-﻿using CognitiveServicesTemplate.Infrastructure.Contract.Client;
+﻿using DataDisplay.Infrastructure.Contract.Client;
 
-namespace CognitiveServicesTemplate.Infrastructure.Implementation.Client
+namespace DataDisplay.Infrastructure.Implementation.Client
 {
 	public class OcrClient : IOcrClient
 	{

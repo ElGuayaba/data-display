@@ -1,9 +1,9 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using CognitiveServicesTemplate.Common.ErrorHandling;
+using DataDisplay.Common.ErrorHandling;
 using OperationResult;
 
-namespace CognitiveServicesTemplate.Application.Contract.Service
+namespace DataDisplay.Application.Contract.Service
 {
     public interface IUserService
     {

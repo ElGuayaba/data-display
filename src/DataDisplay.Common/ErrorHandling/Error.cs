@@ -1,6 +1,6 @@
 ﻿﻿﻿﻿using System.Net;
 
-   namespace CognitiveServicesTemplate.Common.ErrorHandling
+   namespace DataDisplay.Common.ErrorHandling
 {
     public class Error
     {

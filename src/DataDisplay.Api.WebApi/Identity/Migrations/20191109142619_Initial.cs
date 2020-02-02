@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Identity.Migrations
+namespace DataDisplay.Api.WebApi.Identity.Migrations
 {
     public partial class Initial : Migration
     {

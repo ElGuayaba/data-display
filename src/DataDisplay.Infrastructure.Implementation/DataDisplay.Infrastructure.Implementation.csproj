@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CognitiveServicesTemplate.Infrastructure.Contract\DataDisplay.Infrastructure.Contract.csproj" />
+      <ProjectReference Include="..\DataDisplay.Infrastructure.Contract\DataDisplay.Infrastructure.Contract.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Extension
+namespace DataDisplay.Api.WebApi.Extension
 {
     public static class ClaimsPrincipalExtension
     {

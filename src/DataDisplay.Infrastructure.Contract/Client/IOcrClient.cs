@@ -1,4 +1,4 @@
-﻿namespace CognitiveServicesTemplate.Infrastructure.Contract.Client
+﻿namespace DataDisplay.Infrastructure.Contract.Client
 {
 	public interface IOcrClient
 	{

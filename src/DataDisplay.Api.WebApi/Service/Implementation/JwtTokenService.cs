@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using CognitiveServicesTemplate.Api.WebApi.Service.Contract;
+using DataDisplay.Api.WebApi.Service.Contract;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Service.Implementation
+namespace DataDisplay.Api.WebApi.Service.Implementation
 {
     public class JwtTokenService : IJwtTokenService
     {

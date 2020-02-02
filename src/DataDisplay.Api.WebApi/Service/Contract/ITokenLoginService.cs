@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using CognitiveServicesTemplate.Api.WebApi.Identity;
+using DataDisplay.Api.WebApi.Identity;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Service.Contract
+namespace DataDisplay.Api.WebApi.Service.Contract
 {
     public interface ITokenLoginService
     {

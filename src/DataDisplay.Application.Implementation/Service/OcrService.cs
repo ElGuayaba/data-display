@@ -1,5 +1,5 @@
-﻿using CognitiveServicesTemplate.Application.Contract.Service;
-using CognitiveServicesTemplate.Common.ErrorHandling;
+﻿using DataDisplay.Application.Contract.Service;
+using DataDisplay.Common.ErrorHandling;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using OperationResult;
@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using static OperationResult.Helpers;
 
-namespace CognitiveServicesTemplate.Application.Implementation.Service
+namespace DataDisplay.Application.Implementation.Service
 {
 	public class OcrService : IUserService
     {

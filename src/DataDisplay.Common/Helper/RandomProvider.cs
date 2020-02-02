@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace CognitiveServicesTemplate.Common.Helper
+namespace DataDisplay.Common.Helper
 {
     /// <summary>
     /// Random provider thanks to https://csharpindepth.com/Articles/Random

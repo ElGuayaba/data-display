@@ -41,10 +41,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CognitiveServicesTemplate.Application.Contract\DataDisplay.Application.Contract.csproj" />
-      <ProjectReference Include="..\CognitiveServicesTemplate.Application.Implementation\DataDisplay.Application.Implementation.csproj" />
-      <ProjectReference Include="..\CognitiveServicesTemplate.Infrastructure.Contract\DataDisplay.Infrastructure.Contract.csproj" />
-      <ProjectReference Include="..\CognitiveServicesTemplate.Infrastructure.Implementation\DataDisplay.Infrastructure.Implementation.csproj" />
+      <ProjectReference Include="..\DataDisplay.Application.Contract\DataDisplay.Application.Contract.csproj" />
+      <ProjectReference Include="..\DataDisplay.Application.Implementation\DataDisplay.Application.Implementation.csproj" />
+      <ProjectReference Include="..\DataDisplay.Infrastructure.Contract\DataDisplay.Infrastructure.Contract.csproj" />
+      <ProjectReference Include="..\DataDisplay.Infrastructure.Implementation\DataDisplay.Infrastructure.Implementation.csproj" />
     </ItemGroup>
 
 </Project>

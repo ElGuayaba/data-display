@@ -1,9 +1,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using CognitiveServicesTemplate.Application.Implementation.Service;
+using DataDisplay.Application.Implementation.Service;
 using Scrutor;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Configuration
+namespace DataDisplay.Api.WebApi.Configuration
 {
     public static partial class DependencyInjectionExtension
     {

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Serilog;
 using Serilog.Exceptions;
 
-namespace CognitiveServicesTemplate.Api.WebApi.Configuration
+namespace DataDisplay.Api.WebApi.Configuration
 {
     public static class ConfigurationExtension
     {
