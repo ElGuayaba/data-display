@@ -6,7 +6,6 @@
 
     <ItemGroup>
       <PackageReference Include="CSharp.OperationResult" Version="0.1.6" />
-      <PackageReference Include="MediatR" Version="7.0.0" />
       <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.0.0" />
     </ItemGroup>
 
