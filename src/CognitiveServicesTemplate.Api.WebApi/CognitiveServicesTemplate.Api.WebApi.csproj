@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.0.0-preview8.19405.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.0.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.0.1" />
+        <PackageReference Include="Scrutor" Version="3.1.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="3.1.0" />
+        <PackageReference Include="Serilog.Exceptions" Version="5.3.1" />
+        <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Folder Include="Controllers" />
+      <Folder Include="Models" />
+        <Folder Include="wwwroot" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Configuration\DependencyInjectionExtension.Application.cs">
+            <DependentUpon>DependencyInjectionExtension.cs</DependentUpon>
+        </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CognitiveServicesTemplate.Application.Contract\CognitiveServicesTemplate.Application.Contract.csproj" />
+      <ProjectReference Include="..\CognitiveServicesTemplate.Application.Implementation\CognitiveServicesTemplate.Application.Implementation.csproj" />
+      <ProjectReference Include="..\CognitiveServicesTemplate.Infrastructure.Contract\CognitiveServicesTemplate.Infrastructure.Contract.csproj" />
+      <ProjectReference Include="..\CognitiveServicesTemplate.Infrastructure.Implementation\CognitiveServicesTemplate.Infrastructure.Implementation.csproj" />
+    </ItemGroup>
+
+</Project>
