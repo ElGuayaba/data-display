@@ -17,8 +17,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CognitiveServicesTemplate.Application.Contract\CognitiveServicesTemplate.Application.Contract.csproj" />
-      <ProjectReference Include="..\CognitiveServicesTemplate.Common\CognitiveServicesTemplate.Common.csproj" />
+      <ProjectReference Include="..\CognitiveServicesTemplate.Application.Contract\DataDisplay.Application.Contract.csproj" />
+      <ProjectReference Include="..\CognitiveServicesTemplate.Common\DataDisplay.Common.csproj" />
     </ItemGroup>
 
 </Project>

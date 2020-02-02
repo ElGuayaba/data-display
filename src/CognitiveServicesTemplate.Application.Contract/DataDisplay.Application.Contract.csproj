@@ -9,11 +9,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CognitiveServicesTemplate.Common\CognitiveServicesTemplate.Common.csproj" />
+      <Folder Include="Model" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Model" />
+      <ProjectReference Include="..\CognitiveServicesTemplate.Common\DataDisplay.Common.csproj" />
     </ItemGroup>
 
 </Project>

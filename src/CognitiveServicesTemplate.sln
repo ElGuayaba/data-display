@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{EE4545
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E1958C2D-ABDA-46F2-984A-3F9C17B79F5A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServicesTemplate.Api.WebApi", "CognitiveServicesTemplate.Api.WebApi\CognitiveServicesTemplate.Api.WebApi.csproj", "{D7C41B18-28FB-4B14-AC76-14F3A04176FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDisplay.Api.WebApi", "CognitiveServicesTemplate.Api.WebApi\DataDisplay.Api.WebApi.csproj", "{D7C41B18-28FB-4B14-AC76-14F3A04176FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServicesTemplate.Application.Contract", "CognitiveServicesTemplate.Application.Contract\CognitiveServicesTemplate.Application.Contract.csproj", "{3E4C4E9A-5DFA-43B1-90C8-95D3DD9DE4EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDisplay.Application.Contract", "CognitiveServicesTemplate.Application.Contract\DataDisplay.Application.Contract.csproj", "{3E4C4E9A-5DFA-43B1-90C8-95D3DD9DE4EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServicesTemplate.Application.Implementation", "CognitiveServicesTemplate.Application.Implementation\CognitiveServicesTemplate.Application.Implementation.csproj", "{C2A71825-0025-4ED3-80A5-19A7A6134B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDisplay.Application.Implementation", "CognitiveServicesTemplate.Application.Implementation\DataDisplay.Application.Implementation.csproj", "{C2A71825-0025-4ED3-80A5-19A7A6134B4E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServicesTemplate.Common", "CognitiveServicesTemplate.Common\CognitiveServicesTemplate.Common.csproj", "{3344CFCF-E792-41FD-857F-FD39B3D3D7B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDisplay.Common", "CognitiveServicesTemplate.Common\DataDisplay.Common.csproj", "{3344CFCF-E792-41FD-857F-FD39B3D3D7B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServicesTemplate.Infrastructure.Contract", "CognitiveServicesTemplate.Infrastructure.Contract\CognitiveServicesTemplate.Infrastructure.Contract.csproj", "{C01F7596-21B6-4547-8BDE-9FE0278B39CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDisplay.Infrastructure.Contract", "CognitiveServicesTemplate.Infrastructure.Contract\DataDisplay.Infrastructure.Contract.csproj", "{C01F7596-21B6-4547-8BDE-9FE0278B39CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServicesTemplate.Infrastructure.Implementation", "CognitiveServicesTemplate.Infrastructure.Implementation\CognitiveServicesTemplate.Infrastructure.Implementation.csproj", "{04C737F6-A610-44E3-AAC8-8C34E6B0C8B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDisplay.Infrastructure.Implementation", "CognitiveServicesTemplate.Infrastructure.Implementation\DataDisplay.Infrastructure.Implementation.csproj", "{04C737F6-A610-44E3-AAC8-8C34E6B0C8B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
