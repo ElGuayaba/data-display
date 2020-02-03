@@ -9,5 +9,9 @@ namespace DataDisplay.Application.Contract.Service
     public interface IDataService
     {
         Task<Result<IEnumerable<UserDataModel>, Error>> GetAll();
+
+        Task<Result<IEnumerable<string>, Error>> GetAddresses();
+
+        Task<Result<string, Error>> GetNames(string inputAddress);
     }
 }

@@ -25,5 +25,17 @@ namespace DataDisplay.Api.WebApi.Controllers.V1
         {
             return Ok((await DataService.GetAll()).Value);
         }
+
+        [HttpGet("addresses")]
+        public async Task<IActionResult> GetAddresses(CancellationToken cancellationToken)
+        {
+            return Ok((await DataService.GetAddresses()).Value);
+        }
+
+        [HttpGet("user")]
+        public async Task<IActionResult> GetNames(CancellationToken cancellationToken, string address)
+        {
+            return Ok((await DataService.GetNames(address)).Value);
+        }
     }
 }
