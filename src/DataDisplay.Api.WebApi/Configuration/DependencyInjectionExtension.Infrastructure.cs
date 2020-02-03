@@ -15,7 +15,7 @@ namespace DataDisplay.Api.WebApi.Configuration
 					classes.Where(c => c.Name.EndsWith("Repository")))
 				.UsingRegistrationStrategy(RegistrationStrategy.Skip)
 				.AsMatchingInterface()
-				.WithScopedLifetime());
+				.WithSingletonLifetime());
 
 			return services;
 		}

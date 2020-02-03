@@ -18,6 +18,7 @@
     <ItemGroup>
       <ProjectReference Include="..\DataDisplay.Application.Contract\DataDisplay.Application.Contract.csproj" />
       <ProjectReference Include="..\DataDisplay.Common\DataDisplay.Common.csproj" />
+      <ProjectReference Include="..\DataDisplay.Infrastructure.Contract\DataDisplay.Infrastructure.Contract.csproj" />
     </ItemGroup>
 
 </Project>

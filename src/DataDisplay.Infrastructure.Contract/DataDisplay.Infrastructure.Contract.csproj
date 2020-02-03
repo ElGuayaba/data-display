@@ -8,4 +8,8 @@
       <PackageReference Include="System.Text.Json" Version="4.6.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DataDisplay.Common\DataDisplay.Common.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -5,6 +5,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="NameAddressData.csv" />
+    </ItemGroup>
+
+    <ItemGroup>
         <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
     </ItemGroup>
 
@@ -30,7 +34,6 @@
     </ItemGroup>
     
     <ItemGroup>
-      <Folder Include="Controllers" />
       <Folder Include="Models" />
         <Folder Include="wwwroot" />
     </ItemGroup>
@@ -46,6 +49,12 @@
       <ProjectReference Include="..\DataDisplay.Application.Implementation\DataDisplay.Application.Implementation.csproj" />
       <ProjectReference Include="..\DataDisplay.Infrastructure.Contract\DataDisplay.Infrastructure.Contract.csproj" />
       <ProjectReference Include="..\DataDisplay.Infrastructure.Implementation\DataDisplay.Infrastructure.Implementation.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="NameAddressData.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
     </ItemGroup>
 
 </Project>
