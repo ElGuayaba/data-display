@@ -29,14 +29,14 @@ namespace DataDisplay.Application.Implementation.Service
 
         public async Task<Result<IEnumerable<string>, Error>> GetAddresses()
         {
-            var data = DataRepository.GetAll().ToList();
+            var data = DataRepository.GetAll();
 
             return Ok(data.Select(item => $"{item.Home_Street}, {item.Home_Building_Number}, {item.Home_City} ({item.Home_Postcode})").Distinct());
         }
 
         public async Task<Result<IEnumerable<string>, Error>> GetNames(string inputAddress)
         {
-            var data = (await GetAll()).Value.ToList();
+            var data = DataRepository.GetAll();
 
             var users = data.Where(item => $"{item.Home_Street}, {item.Home_Building_Number}, {item.Home_City} ({item.Home_Postcode})" == inputAddress.Trim());
 

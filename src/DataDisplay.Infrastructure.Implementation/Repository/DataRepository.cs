@@ -4,12 +4,14 @@ using DataDisplay.Infrastructure.Contract.Client;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 
 namespace DataDisplay.Infrastructure.Implementation.Client
 {
 	public class DataRepository : IDataRepository
 	{
 		private readonly CsvReader _reader;
+		private IEnumerable<UserDataModel> records = new List<UserDataModel>();
 		public DataRepository()
 		{
 			TextReader reader = new StreamReader("NameAddressData.csv");
@@ -18,8 +20,12 @@ namespace DataDisplay.Infrastructure.Implementation.Client
 		}
 
 		public IEnumerable<UserDataModel> GetAll()
-		{			
-			return _reader.GetRecords<UserDataModel>();
+		{
+			if (!records.Any())
+			{
+				records = _reader.GetRecords<UserDataModel>().ToList();
+			}
+			return records;
 		}
 	}
 }
