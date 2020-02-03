@@ -13,7 +13,7 @@ To use it:
 
 	docker run -p 5000:80 -d --name data-display-container data-display:latest
 
--Go to your browser and navigat to the following address:
+-Go to your browser and navigate to the following address:
 	
 	http://localhost:5000/index.html
 
