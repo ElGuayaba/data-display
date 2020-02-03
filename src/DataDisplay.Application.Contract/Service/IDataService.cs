@@ -12,6 +12,6 @@ namespace DataDisplay.Application.Contract.Service
 
         Task<Result<IEnumerable<string>, Error>> GetAddresses();
 
-        Task<Result<string, Error>> GetNames(string inputAddress);
+        Task<Result<IEnumerable<string>, Error>> GetNames(string inputAddress);
     }
 }

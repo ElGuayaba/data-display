@@ -52,9 +52,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Resource Include="NameAddressData.csv">
+      <Content Include="NameAddressData.csv">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Resource>
+      </Content>
     </ItemGroup>
 
 </Project>

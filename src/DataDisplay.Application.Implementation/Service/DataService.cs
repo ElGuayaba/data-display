@@ -29,20 +29,18 @@ namespace DataDisplay.Application.Implementation.Service
 
         public async Task<Result<IEnumerable<string>, Error>> GetAddresses()
         {
-            var data = DataRepository.GetAll();
-
-            return Ok(data.Select(item => $"{item.Home_Street}, {item.Home_Building_Number}, {item.Home_City} ({item.Home_Postcode})"));
-        }
-
-        public async Task<Result<string, Error>> GetNames(string inputAddress)
-        {
             var data = DataRepository.GetAll().ToList();
 
-            var user = data.FirstOrDefault(item => $"{item.Home_Street}, {item.Home_Building_Number}, {item.Home_City} ({item.Home_Postcode})" == inputAddress);
+            return Ok(data.Select(item => $"{item.Home_Street}, {item.Home_Building_Number}, {item.Home_City} ({item.Home_Postcode})").Distinct());
+        }
 
+        public async Task<Result<IEnumerable<string>, Error>> GetNames(string inputAddress)
+        {
+            var data = (await GetAll()).Value.ToList();
 
+            var users = data.Where(item => $"{item.Home_Street}, {item.Home_Building_Number}, {item.Home_City} ({item.Home_Postcode})" == inputAddress.Trim());
 
-            return Ok(user is null ? string.Empty : $"{user.Forename} {user.Middle_Names} {user.Surname}");
+            return Ok(users.Select(user => $"{user.Forename} {user.Middle_Names} {user.Surname}"));
         }
     }
 }
