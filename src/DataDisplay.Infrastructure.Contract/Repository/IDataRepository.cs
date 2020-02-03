@@ -1,6 +1,6 @@
 ﻿namespace DataDisplay.Infrastructure.Contract.Client
 {
-	public interface IOcrClient
+	public interface IDataRepository
 	{
 	}
 }

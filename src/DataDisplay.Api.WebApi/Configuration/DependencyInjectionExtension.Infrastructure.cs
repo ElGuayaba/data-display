@@ -10,11 +10,11 @@ namespace DataDisplay.Api.WebApi.Configuration
 		private static IServiceCollection AddInfrastructureClients(this IServiceCollection services, IConfiguration configuration)
 		{
 			services.Scan(scan => scan
-				.FromAssemblyOf<OcrClient>()
+				.FromAssemblyOf<DataRepository>()
 				.AddClasses(classes =>
-					classes.Where(c => c.Name.EndsWith("Client")))
+					classes.Where(c => c.Name.EndsWith("Repository")))
 				.UsingRegistrationStrategy(RegistrationStrategy.Skip)
-				.AsImplementedInterfaces()
+				.AsMatchingInterface()
 				.WithScopedLifetime());
 
 			return services;

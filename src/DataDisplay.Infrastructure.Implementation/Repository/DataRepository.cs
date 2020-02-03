@@ -2,7 +2,7 @@
 
 namespace DataDisplay.Infrastructure.Implementation.Client
 {
-	public class OcrClient : IOcrClient
+	public class DataRepository : IDataRepository
 	{
 	}
 }
